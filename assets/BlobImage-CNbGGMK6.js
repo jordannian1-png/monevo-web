@@ -1,0 +1,1 @@
+import{A as e,F as t,x as n}from"./index-kWEws8rZ.js";var r=t(e(),1),i=n();function a({blob:e,alt:t,style:n}){let a=(0,r.useMemo)(()=>URL.createObjectURL(e),[e]);return(0,r.useEffect)(()=>()=>URL.revokeObjectURL(a),[a]),(0,i.jsx)(`img`,{src:a,alt:t,style:n})}export{a as t};
